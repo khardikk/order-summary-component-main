@@ -118,4 +118,45 @@ button:hover{
     color:hsla(245, 75%, 52%, 0.693);
   }
   
+  @media (max-width: 768px) {
+    /* Media query for screens with a maximum width of 768px (typical for mobile screens) */
+    body{
+        padding: 25px;
+    }
+    
+    #card {
+      width: 100%;
+      border-radius: 15px; /* Restore border-radius for mobile */
+      margin: 10px; /* Add space around the card */
+
+    }
+    h2 {
+        /* Adjust the font size of h2 using rem or em units */
+        font-size: 1.3rem;
+      }
+    .card-text {
+        /* Adjust text font size and line height using rem or em units */
+        font-size: 1rem;
+        line-height: 1.5;
+        padding-bottom: 10px;
+      }
+      p {
+        /* Adjust text font size and line height using rem or em units */
+        font-size: 0.9rem;
+        line-height: 1.8;
+        max-width: 240px;
+      }
+    
+    
+    button {
+      width: 100%; /* Make the button full width */
+      max-width: 250px; /* Limit the maximum width of the button */
+    }
+
+    .plan{
+        justify-content: space-between;
+    }
+    
+    /* Other mobile-specific styles go here */
+  }
   
